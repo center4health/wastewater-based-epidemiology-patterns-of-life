@@ -1,6 +1,9 @@
 # Wastewater Based Epidemiology Patterns of Life
 
 This repository contains code and supporting resources for analyzing wastewater based epidemiology (WBE) data using patterns of life simulation. The goal is to extract population level signals from wastewater measurements and relate them to temporal and spatial human mobility patterns.
+```
+Amiri, Hossein, et al. "Where do We Poop? City-Wide Simulation of Defecation Behavior for Wastewater-Based Epidemiology." arXiv preprint arXiv:2601.04231 (2026).
+```
 
 ## Overview
 
