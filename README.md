@@ -25,12 +25,14 @@ Clone the repository:
 git clone https://github.com/onspatial/wastewater-based-epidemiology-patterns-of-life.git
 cd wastewater-based-epidemiology-patterns-of-life
 ```
-Install dependencies:
-
+Install Java dependencies:
+```
 bash mvn.sh
-
+```
+Install python dependencies:
+```
 pipenv install
-
+```
 ## Contributing
 
 1. Fork the repository
