@@ -21,10 +21,10 @@ Wastewater based epidemiology provides a non invasive way to monitor public heal
 ## Installation
 
 Clone the repository:
-
+```
 git clone https://github.com/onspatial/wastewater-based-epidemiology-patterns-of-life.git
 cd wastewater-based-epidemiology-patterns-of-life
-
+```
 Install dependencies:
 
 bash mvn.sh
