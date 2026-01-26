@@ -29,7 +29,7 @@ Install Java dependencies:
 ```
 bash mvn.sh
 ```
-Install python dependencies:
+Install Python dependencies:
 ```
 pipenv install
 ```
