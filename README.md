@@ -8,7 +8,7 @@ Wastewater based epidemiology provides a non invasive way to monitor public heal
 
 ## Repository Structure
 
-.
+```
 ├── src/ Source code
 ├── run/ Scripts for running experiments
 ├── results/ Illustrative output data
@@ -16,6 +16,7 @@ Wastewater based epidemiology provides a non invasive way to monitor public heal
 ├── Pipfile Python dependencies
 ├── mvn.sh Maven helper script
 └── README.md Project documentation
+```
 
 ## Installation
 
