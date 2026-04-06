@@ -36,7 +36,7 @@ Install Python dependencies:
 pipenv install
 ```
 
-Run the project
+Run the project:
 ```
 sh run/run.sh
 ```
