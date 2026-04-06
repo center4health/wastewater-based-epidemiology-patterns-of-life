@@ -35,6 +35,11 @@ Install Python dependencies:
 ```
 pipenv install
 ```
+
+Run the project
+```
+sh run/run.sh
+```
 ## Contributing
 
 1. Fork the repository
