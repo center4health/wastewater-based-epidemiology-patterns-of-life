@@ -1,0 +1,8 @@
+.git
+.idea
+results
+logs
+target
+run/jar
+netlify
+*.log.txt

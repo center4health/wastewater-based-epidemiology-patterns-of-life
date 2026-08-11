@@ -13,3 +13,7 @@ pol/maps/*
 pol/visualvm_*
 run/jar/pol.jar
 spatial-pathogen*
+site/results/
+
+# Local Netlify folder
+.netlify

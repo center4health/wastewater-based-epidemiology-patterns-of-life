@@ -17,6 +17,13 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
+					<excludes>
+						<!-- Orphaned prototype: references WorldParameters fields
+						     (defaultPathogenTransmissionRate et al.) that no longer
+						     exist, and is not referenced anywhere in the codebase.
+						     Excluded so the project compiles. -->
+						<exclude>**/InfectiousDiseaseGermTheory.java</exclude>
+					</excludes>
 				</configuration>
 			</plugin>
 			<plugin>

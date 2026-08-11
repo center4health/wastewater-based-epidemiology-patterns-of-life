@@ -1,0 +1,10 @@
+[build]
+  publish = "site"
+  # The gallery reads the committed run output directly; stage it into the
+  # publish directory so results/ stays the single source of truth.
+  command = "rm -rf site/results && mkdir -p site/results && cp -R results/. site/results/"
+
+[[headers]]
+  for = "/results/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
