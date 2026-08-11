@@ -1,8 +1,11 @@
 [build]
-  publish = "site"
+  # Base is site/ so Netlify's dependency detection does not find the repo-root
+  # Pipfile and try to provision a pinned Python for a build that is a file copy.
+  base = "site"
+  publish = "."
   # The gallery reads the committed run output directly; stage it into the
   # publish directory so results/ stays the single source of truth.
-  command = "rm -rf site/results && mkdir -p site/results && cp -R results/. site/results/"
+  command = "rm -rf results && mkdir -p results && cp -R ../results/. results/"
 
 [[headers]]
   for = "/results/*"
